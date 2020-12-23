@@ -20,6 +20,8 @@
             }
         </style>
     </head>
+
+    <a class="btn btn-primary" href="/nlu_index">Index NLU</a>
     <body class="antialiased">
         <div class="relative flex items-top justify-center min-h-screen bg-gray-100 dark:bg-gray-900 sm:items-center sm:pt-0">
             @if (Route::has('login'))
@@ -124,6 +126,9 @@
 
                     <div class="ml-4 text-center text-sm text-gray-500 sm:text-right sm:ml-0">
                         Laravel v{{ Illuminate\Foundation\Application::VERSION }} (PHP v{{ PHP_VERSION }})
+
+
+
                     </div>
                 </div>
             </div>

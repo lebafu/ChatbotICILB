@@ -21,21 +21,21 @@
     <table class="table table-bordered">
         <tr>
             <th>ID</th>
-            <th>nombre</th>
-            <th>respuestas</th>
+            <th>Preguntas</th>
+            <th>Respuestas</th>
             <th width="250px">Action</th>
         </tr>
         @foreach ($datos as $dato)
         <tr>
             <td>{{ $dato->id}}</td>
+            <td>{{ $dato->pregunta}}</td>
             <td>{{ $dato->nombre}}</td>
-            <td>{{ $dato->respuestas}}</td>
             <td>
                 <!--
    
                     -->
     
-                    <a class="btn btn-primary" href="{{ route('intents.nlu_edit',$dato->id) }}">Edit</a>
+                    <a class="btn btn-primary" href="{{route('qna.edit',$dato->id)}}">Editar</a>
    
                 
             </td>
