@@ -1,0 +1,16 @@
+{
+  "name": "contacto-carrera",
+  "utterances": {
+    "es": [
+      "Contacto carrera",
+      "Necesito información de contactos de mi carrera",
+      "Contactarme con jefe de carrera",
+      "Contacto de secretaria de carrera",
+      "Correo electrónico"
+    ]
+  },
+  "slots": [],
+  "contexts": [
+    "global"
+  ]
+}

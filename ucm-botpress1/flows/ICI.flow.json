@@ -1,0 +1,103 @@
+{
+  "version": "0.0.1",
+  "catchAll": {},
+  "startNode": "entry",
+  "description": "",
+  "nodes": [
+    {
+      "id": "d8c261a0ed",
+      "name": "entry",
+      "onEnter": [],
+      "onReceive": null,
+      "next": [
+        {
+          "condition": "true",
+          "node": "Pregunta_ICI"
+        }
+      ],
+      "type": "standard"
+    },
+    {
+      "id": "7b2a997894",
+      "name": "Pregunta_ICI",
+      "next": [
+        {
+          "condition": "event.nlu.intent.name === 'despedida'",
+          "node": "#Despedida"
+        },
+        {
+          "condition": "event.nlu.intent.name === 'mallas'",
+          "node": "Eleccion_malla"
+        },
+        {
+          "condition": "true",
+          "node": ""
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-mH8UZA"
+      ],
+      "onReceive": [],
+      "type": "standard"
+    },
+    {
+      "id": "981bca829f",
+      "type": "skill-call",
+      "skill": "choice",
+      "name": "Eleccion_malla",
+      "flow": "skills/choice-d13ac5.flow.json",
+      "next": [
+        {
+          "caption": "User picked [Objetiv...]",
+          "condition": "temp['skill-choice-ret-vlkz9a9euy'] == \"Objetivos\"",
+          "node": "Malla_ICI"
+        },
+        {
+          "caption": "User picked [Compete...]",
+          "condition": "temp['skill-choice-ret-vlkz9a9euy'] == \"Competencias\"",
+          "node": "Malla_INF"
+        }
+      ],
+      "onEnter": null,
+      "onReceive": null
+    },
+    {
+      "id": "be25353264",
+      "name": "Malla_ICI",
+      "next": [
+        {
+          "condition": "true",
+          "node": "Pregunta_ICI"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_image-3wJIqI"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "d924e63b6d",
+      "name": "Malla_INF",
+      "next": [
+        {
+          "condition": "true",
+          "node": "Pregunta_ICI"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_image-gK59Oi"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "95ef8e3c10",
+      "name": "node-2b42",
+      "next": [],
+      "onEnter": [],
+      "onReceive": null,
+      "type": "standard"
+    }
+  ]
+}

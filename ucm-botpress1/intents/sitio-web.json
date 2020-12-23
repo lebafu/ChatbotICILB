@@ -1,0 +1,16 @@
+{
+  "name": "sitio-web",
+  "utterances": {
+    "es": [
+      "Sitio web",
+      "¿Mi carrera tiene sitio web?",
+      "¿Cual es la pagina web de mi carrera?",
+      "Necesito el link del sitio de mi carrera",
+      "¿Existe algún sitio web de la carrera?"
+    ]
+  },
+  "slots": [],
+  "contexts": [
+    "global"
+  ]
+}

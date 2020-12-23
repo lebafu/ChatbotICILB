@@ -1,0 +1,23 @@
+{
+  "name": "mallas",
+  "utterances": {
+    "es": [
+      "Mallas",
+      "Quiero ver la malla de mi carrera",
+      "Malla curricular",
+      "Plan curricular",
+      "Revisar la malla de mi carrera",
+      "Quiero ver los diferentes ramos de mi carrera",
+      "¿Donde puedo encontrar mi malla curricular?",
+      "Malla de la carrera",
+      "Mallas en el sitio web",
+      "Imagen de mi malla",
+      "malla",
+      "Malla"
+    ]
+  },
+  "slots": [],
+  "contexts": [
+    "global"
+  ]
+}

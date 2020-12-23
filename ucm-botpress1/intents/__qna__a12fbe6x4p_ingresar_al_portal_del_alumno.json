@@ -1,0 +1,14 @@
+{
+  "name": "__qna__a12fbe6x4p_ingresar_al_portal_del_alumno",
+  "contexts": [
+    "global"
+  ],
+  "utterances": {
+    "es": [
+      "Ingresar al Portal del alumno",
+      "¿Donde encuentro el link del portal del alumno?",
+      "¿Existe algún portal al que pueda ingresar?"
+    ]
+  },
+  "slots": []
+}

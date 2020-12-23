@@ -1,0 +1,19 @@
+[
+  {
+    "id": "builtin_carousel-GU29f1",
+    "formData": {
+      "typing$es": true,
+      "items$es": [
+        {
+          "title": "Puedo ayudarte en muchas cosas",
+          "subtitle": "¿Que necesitas?",
+          "actions": [],
+          "image": "/api/v1/bots/prueba/media/li8m1pcld8neqo3f7mch-kisspng-world-globe-clip-art-portable-network-graphics-tra-offline-maps-amp-direction-gps-navigation-rout-5d12aa76ed0439.4623052115615043749708.png"
+        }
+      ]
+    },
+    "createdBy": "admin",
+    "createdOn": "2020-10-29T08:32:00.149Z",
+    "modifiedOn": "2020-10-29T08:32:00.149Z"
+  }
+]

@@ -1,0 +1,111 @@
+{
+  "version": "0.0.1",
+  "catchAll": {
+    "onReceive": [],
+    "next": []
+  },
+  "startNode": "Saludo",
+  "nodes": [
+    {
+      "id": "entry",
+      "name": "Saludo",
+      "next": [
+        {
+          "condition": "true",
+          "node": "choice-762449"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-HUeo8D"
+      ],
+      "onReceive": null
+    },
+    {
+      "id": "skill-66a47c",
+      "type": "skill-call",
+      "skill": "choice",
+      "name": "Carreras",
+      "flow": "skills/choice-66a47c.flow.json",
+      "next": [
+        {
+          "caption": "User picked [ICI]",
+          "condition": "temp['skill-choice-ret-2t0i9vmw4p'] == \"ICI\"",
+          "node": "ICI.flow.json"
+        },
+        {
+          "caption": "User picked [ICO]",
+          "condition": "temp['skill-choice-ret-2t0i9vmw4p'] == \"ICO\"",
+          "node": "node-fe34"
+        }
+      ],
+      "onEnter": null,
+      "onReceive": null
+    },
+    {
+      "id": "9d84866e10",
+      "name": "node-fe34",
+      "next": [
+        {
+          "condition": "event.nlu.intent.name === 'despedida'",
+          "node": "Despedida"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_carousel-GU29f1"
+      ],
+      "onReceive": [],
+      "type": "standard"
+    },
+    {
+      "id": "7c2e9df272",
+      "name": "Despedida",
+      "next": [
+        {
+          "condition": "true",
+          "node": "Despedida2"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-PYsAys"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "skill-762449",
+      "type": "skill-call",
+      "skill": "choice",
+      "name": "choice-762449",
+      "flow": "skills/choice-762449.flow.json",
+      "next": [
+        {
+          "caption": "User picked [Si]",
+          "condition": "temp['skill-choice-ret-yafc194k56'] == \"Si\"",
+          "node": "Carreras"
+        },
+        {
+          "caption": "User picked [No]",
+          "condition": "temp['skill-choice-ret-yafc194k56'] == \"No\"",
+          "node": "Externo.flow.json"
+        }
+      ],
+      "onEnter": null,
+      "onReceive": null
+    },
+    {
+      "id": "69b6696815",
+      "name": "Despedida2",
+      "next": [
+        {
+          "condition": "true",
+          "node": "END"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-Kq4UNg"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    }
+  ]
+}

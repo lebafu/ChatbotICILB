@@ -1,0 +1,112 @@
+[
+  {
+    "id": "builtin_text-HUeo8D",
+    "formData": {
+      "markdown$es": true,
+      "typing$es": true,
+      "text$es": "Bienvenido, estoy aquí para ayudarte"
+    },
+    "createdBy": "admin",
+    "createdOn": "2020-10-26T05:08:15.402Z",
+    "modifiedOn": "2020-10-29T08:27:48.977Z"
+  },
+  {
+    "id": "builtin_text-ojJk34",
+    "formData": {
+      "markdown$es": true,
+      "typing$es": true,
+      "text$es": "Lo siento, no se nada sobre esa carrera"
+    },
+    "createdBy": "admin",
+    "createdOn": "2020-10-29T08:28:59.823Z",
+    "modifiedOn": "2020-10-29T08:28:59.823Z"
+  },
+  {
+    "id": "builtin_text-mH8UZA",
+    "formData": {
+      "markdown$es": true,
+      "typing$es": true,
+      "text$es": "¿Qué necesitas?"
+    },
+    "createdBy": "admin",
+    "createdOn": "2020-10-29T08:30:05.697Z",
+    "modifiedOn": "2020-11-16T06:43:50.173Z"
+  },
+  {
+    "id": "builtin_text-PYsAys",
+    "formData": {
+      "markdown$es": true,
+      "typing$es": true,
+      "text$es": "Fue un gusto ayudarte"
+    },
+    "createdBy": "admin",
+    "createdOn": "2020-11-09T01:32:29.621Z",
+    "modifiedOn": "2020-11-16T06:36:18.323Z"
+  },
+  {
+    "id": "builtin_text-vCg2mB",
+    "formData": {
+      "markdown$es": true,
+      "typing$es": true,
+      "text$es": "Aquí esta tu malla curricular"
+    },
+    "createdBy": "admin",
+    "createdOn": "2020-11-09T05:58:36.742Z",
+    "modifiedOn": "2020-11-09T06:01:16.686Z"
+  },
+  {
+    "id": "builtin_text-EUDJI5",
+    "formData": {
+      "markdown$es": true,
+      "typing$es": true,
+      "text$es": "..."
+    },
+    "createdBy": "admin",
+    "createdOn": "2020-11-09T06:15:40.270Z",
+    "modifiedOn": "2020-11-09T06:15:40.270Z"
+  },
+  {
+    "id": "builtin_text-_jPH1m",
+    "formData": {
+      "markdown$es": true,
+      "typing$es": true,
+      "text$es": "Veamos"
+    },
+    "createdBy": "admin",
+    "createdOn": "2020-11-10T04:34:31.884Z",
+    "modifiedOn": "2020-11-10T04:34:31.884Z"
+  },
+  {
+    "id": "builtin_text-djTcpK",
+    "formData": {
+      "markdown$es": true,
+      "typing$es": true,
+      "text$es": "Adiós"
+    },
+    "createdBy": "admin",
+    "createdOn": "2020-11-16T06:18:35.260Z",
+    "modifiedOn": "2020-11-16T06:18:35.260Z"
+  },
+  {
+    "id": "builtin_text-d4DmyX",
+    "formData": {
+      "markdown$es": true,
+      "typing$es": true,
+      "text$es": "Opcion tradicional"
+    },
+    "createdBy": "admin",
+    "createdOn": "2020-11-16T06:27:19.883Z",
+    "modifiedOn": "2020-11-16T06:27:19.883Z"
+  },
+  {
+    "id": "builtin_text-Kq4UNg",
+    "formData": {
+      "markdown$es": true,
+      "typing$es": true,
+      "text$es": "adios :)"
+    },
+    "createdBy": "admin",
+    "createdOn": "2020-11-16T06:34:30.983Z",
+    "modifiedOn": "2020-11-16T06:34:30.983Z"
+  }
+]

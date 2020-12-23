@@ -1,0 +1,17 @@
+{
+  "name": "__qna__3qkzd3fuzr_direcci_n_del_campus",
+  "contexts": [
+    "global"
+  ],
+  "utterances": {
+    "es": [
+      "Dirección del campus",
+      "¿Donde está ubicada la universidad?",
+      "¿En que ciudad se encuentra las UCM?",
+      "Necesito la direccion de la universidad",
+      "Necesito la direccion del campus san Miguel",
+      "¿Cúal es la direccion de la Universidad?"
+    ]
+  },
+  "slots": []
+}

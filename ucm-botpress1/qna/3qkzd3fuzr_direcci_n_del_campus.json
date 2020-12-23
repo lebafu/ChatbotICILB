@@ -1,0 +1,27 @@
+{
+  "id": "3qkzd3fuzr_direcci_n_del_campus",
+  "data": {
+    "action": "text",
+    "contexts": [
+      "global"
+    ],
+    "enabled": true,
+    "answers": {
+      "es": [
+        "El Campus San Miguel de la UCM está ubicado en Avenida San Miguel 3605, en la ciudad de Talca."
+      ]
+    },
+    "questions": {
+      "es": [
+        "Dirección del campus",
+        "¿Donde está ubicada la universidad?",
+        "¿En que ciudad se encuentra la UCM?",
+        "Necesito la direccion de la universidad",
+        "Necesito la direccion del campus san Miguel",
+        "¿Cúal es la direccion de la Universidad?"
+      ]
+    },
+    "redirectFlow": "",
+    "redirectNode": ""
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "name": "perfil-de-egreso",
+  "utterances": {
+    "es": [
+      "Perfil de egreso",
+      "Quiero ver el perfil de egreso de la carrera",
+      "¿Que perfil tendré al egresar?",
+      "Perfil del egresado"
+    ]
+  },
+  "slots": [],
+  "contexts": [
+    "global"
+  ]
+}

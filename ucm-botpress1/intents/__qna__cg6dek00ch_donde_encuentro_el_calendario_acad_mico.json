@@ -1,0 +1,15 @@
+{
+  "name": "__qna__cg6dek00ch_donde_encuentro_el_calendario_acad_mico",
+  "contexts": [
+    "global"
+  ],
+  "utterances": {
+    "es": [
+      "¿Donde encuentro el calendario académico?",
+      "¿Donde está el calendario académico?",
+      "Necesito ver el calendario académico",
+      "calendario académico"
+    ]
+  },
+  "slots": []
+}

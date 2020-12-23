@@ -1,0 +1,24 @@
+{
+  "id": "a12fbe6x4p_ingresar_al_portal_del_alumno",
+  "data": {
+    "action": "text",
+    "contexts": [
+      "global"
+    ],
+    "enabled": true,
+    "answers": {
+      "es": [
+        "Puedes ingresar al portal del alumno en este espacio http://www.portalalumnos.ucm.cl/v2/"
+      ]
+    },
+    "questions": {
+      "es": [
+        "Ingresar al Portal del alumno",
+        "¿Donde encuentro el link del portal del alumno?",
+        "¿Existe algún portal al que pueda ingresar?"
+      ]
+    },
+    "redirectFlow": "",
+    "redirectNode": ""
+  }
+}

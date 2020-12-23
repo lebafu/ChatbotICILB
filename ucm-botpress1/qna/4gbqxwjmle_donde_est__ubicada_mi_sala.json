@@ -1,0 +1,25 @@
+{
+  "id": "4gbqxwjmle_donde_est__ubicada_mi_sala",
+  "data": {
+    "action": "text",
+    "contexts": [
+      "global"
+    ],
+    "enabled": true,
+    "answers": {
+      "es": [
+        "#!builtin_image-Za01G8"
+      ]
+    },
+    "questions": {
+      "es": [
+        "¿Donde está ubicada mi sala?",
+        "Necesito encontrar una sala",
+        "Quiero ver algun mapa del campus",
+        "Plano del campus"
+      ]
+    },
+    "redirectFlow": "",
+    "redirectNode": ""
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "version": "0.0.1",
+  "catchAll": {},
+  "startNode": "entry",
+  "description": "",
+  "nodes": [
+    {
+      "id": "357d14f315",
+      "name": "entry",
+      "onEnter": [
+        "say #!builtin_card-TtUg5r"
+      ],
+      "onReceive": null,
+      "next": [
+        {
+          "condition": "true",
+          "node": "Quieres_estudiar"
+        }
+      ],
+      "type": "standard"
+    },
+    {
+      "id": "skill-5e4a5b",
+      "type": "skill-call",
+      "skill": "choice",
+      "name": "Quieres_estudiar",
+      "flow": "skills/choice-5e4a5b.flow.json",
+      "next": [
+        {
+          "caption": "User picked [Si quie...]",
+          "condition": "temp['skill-choice-ret-0dn6ioxtb1'] == \"Si quiero\"",
+          "node": "Alternativas"
+        },
+        {
+          "caption": "User picked [No quie...]",
+          "condition": "temp['skill-choice-ret-0dn6ioxtb1'] == \"No quiero\"",
+          "node": "#Despedida"
+        },
+        {
+          "caption": "On failure",
+          "condition": "true",
+          "node": "END"
+        }
+      ],
+      "onEnter": null,
+      "onReceive": null
+    },
+    {
+      "id": "skill-531087",
+      "type": "skill-call",
+      "skill": "choice",
+      "name": "Alternativas",
+      "flow": "skills/choice-531087.flow.json",
+      "next": [
+        {
+          "caption": "User picked [tradici...]",
+          "condition": "temp['skill-choice-ret-fnbi5topma'] == \"tradicional\"",
+          "node": "node-62b2"
+        },
+        {
+          "caption": "User picked [especial]",
+          "condition": "temp['skill-choice-ret-fnbi5topma'] == \"especial\"",
+          "node": "END"
+        },
+        {
+          "caption": "On failure",
+          "condition": "true",
+          "node": "END"
+        }
+      ],
+      "onEnter": null,
+      "onReceive": null
+    },
+    {
+      "id": "0c2ebfc85e",
+      "name": "Op_tradicional",
+      "next": [
+        {
+          "condition": "true",
+          "node": "#Despedida"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-d4DmyX"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "61f6030700",
+      "name": "node-62b2",
+      "next": [],
+      "onEnter": [],
+      "onReceive": null,
+      "type": "standard"
+    }
+  ]
+}

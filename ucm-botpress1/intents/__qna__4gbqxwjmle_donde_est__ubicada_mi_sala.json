@@ -1,0 +1,15 @@
+{
+  "name": "__qna__4gbqxwjmle_donde_est__ubicada_mi_sala",
+  "contexts": [
+    "global"
+  ],
+  "utterances": {
+    "es": [
+      "¿Donde está ubicada mi sala?",
+      "Necesito encontrar una sala",
+      "Quiero ver algun mapa del campus",
+      "Plano del campus"
+    ]
+  },
+  "slots": []
+}

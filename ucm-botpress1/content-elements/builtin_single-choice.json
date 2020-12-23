@@ -1,0 +1,107 @@
+[
+  {
+    "id": "builtin_single-choice-2xfegP",
+    "formData": {
+      "choices$es": [
+        {
+          "title": "ICI",
+          "value": "ICI"
+        },
+        {
+          "title": "ICO",
+          "value": "ICO"
+        }
+      ],
+      "markdown$es": true,
+      "typing$es": true,
+      "text$es": "¿A qué carrera perteneces?"
+    },
+    "createdBy": "admin",
+    "createdOn": "2020-10-29T08:21:08.584Z",
+    "modifiedOn": "2020-10-29T08:27:24.893Z"
+  },
+  {
+    "id": "builtin_single-choice-fVriQ0",
+    "formData": {
+      "choices$es": [
+        {
+          "title": "Si",
+          "value": "Si"
+        },
+        {
+          "title": "No",
+          "value": "No"
+        }
+      ],
+      "markdown$es": true,
+      "typing$es": true,
+      "text$es": "¿Estudias en la universidad?"
+    },
+    "createdBy": "admin",
+    "createdOn": "2020-11-09T01:26:10.814Z",
+    "modifiedOn": "2020-11-09T01:26:10.814Z"
+  },
+  {
+    "id": "builtin_single-choice-o1n1jU",
+    "formData": {
+      "choices$es": [
+        {
+          "title": "Malla por objetivos (ICI)",
+          "value": "Objetivos"
+        },
+        {
+          "title": "Malla por competencias (INF)",
+          "value": "Competencias"
+        }
+      ],
+      "markdown$es": true,
+      "typing$es": true,
+      "text$es": "¿A qué malla perteneces?"
+    },
+    "createdBy": "admin",
+    "createdOn": "2020-11-09T05:16:00.709Z",
+    "modifiedOn": "2020-11-09T05:16:00.709Z"
+  },
+  {
+    "id": "builtin_single-choice-cjeSQw",
+    "formData": {
+      "choices$es": [
+        {
+          "title": "Si quiero",
+          "value": "Si quiero"
+        },
+        {
+          "title": "No quiero",
+          "value": "No quiero"
+        }
+      ],
+      "markdown$es": true,
+      "typing$es": true,
+      "text$es": "¿Te gustaría estudiar en la UCM?"
+    },
+    "createdBy": "admin",
+    "createdOn": "2020-11-16T05:45:26.538Z",
+    "modifiedOn": "2020-11-16T06:10:10.661Z"
+  },
+  {
+    "id": "builtin_single-choice-Ptw6dh",
+    "formData": {
+      "choices$es": [
+        {
+          "title": "Admisión Tradicional",
+          "value": "tradicional"
+        },
+        {
+          "title": "Admisión Especial",
+          "value": "especial"
+        }
+      ],
+      "markdown$es": true,
+      "typing$es": true,
+      "text$es": "¿Sobre que tipo de adminisión quieres saber?"
+    },
+    "createdBy": "admin",
+    "createdOn": "2020-11-16T05:48:07.664Z",
+    "modifiedOn": "2020-11-16T05:48:07.664Z"
+  }
+]

@@ -1,0 +1,26 @@
+{
+  "id": "0o2h62k9xe_recursos_contra_el_covid_19",
+  "data": {
+    "action": "text",
+    "contexts": [
+      "global"
+    ],
+    "enabled": true,
+    "answers": {
+      "es": [
+        "Esta información está en este link : https://www.gob.cl/coronavirus/"
+      ]
+    },
+    "questions": {
+      "es": [
+        "Recursos contra el Covid-19",
+        "Necesito información sobre lo que se hace contra el Covid-19",
+        "Prevencion del Coronavirus-19",
+        "Covid-19",
+        "¿Hay información sobre el Covid-19?"
+      ]
+    },
+    "redirectFlow": "",
+    "redirectNode": ""
+  }
+}

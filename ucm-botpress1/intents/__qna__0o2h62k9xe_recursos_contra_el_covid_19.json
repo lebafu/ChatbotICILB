@@ -1,0 +1,16 @@
+{
+  "name": "__qna__0o2h62k9xe_recursos_contra_el_covid_19",
+  "contexts": [
+    "global"
+  ],
+  "utterances": {
+    "es": [
+      "Recursos contra el Covid-19",
+      "Necesito información sobre lo que se hace contra el Covid-19",
+      "Prevencion del Coronavirus-19",
+      "Covid-19",
+      "¿Hay información sobre el Covid-19?"
+    ]
+  },
+  "slots": []
+}

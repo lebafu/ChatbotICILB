@@ -1,0 +1,25 @@
+{
+  "id": "cg6dek00ch_donde_encuentro_el_calendario_acad_mico",
+  "data": {
+    "action": "text",
+    "contexts": [
+      "global"
+    ],
+    "enabled": true,
+    "answers": {
+      "es": [
+        "Puedes encontrar el calendario academico en el siguiente link: http://www.eici.ucm.cl/?page_id=52"
+      ]
+    },
+    "questions": {
+      "es": [
+        "¿Donde encuentro el calendario académico?",
+        "¿Donde está el calendario académico?",
+        "Necesito ver el calendario académico",
+        "calendario académico\n"
+      ]
+    },
+    "redirectFlow": "",
+    "redirectNode": ""
+  }
+}
